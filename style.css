@@ -14,6 +14,9 @@ h2{
 h3{
     font-size: 30px;
 }
+h4{
+    font-size: 20px;
+}
 
 /* header start here  */
 #header-sec{
@@ -43,7 +46,7 @@ h3{
     color: white;
     
 }
-/* header start here  */
+/* header ends here  */
 
 /* donate amount start here */
 #donation-sec{
@@ -92,3 +95,48 @@ input::placeholder {
     font-weight: 400;
 }
 /* donate amount end here */
+
+/* donate plan start here */
+    #donate-plan{
+        height: 100vh;
+    }
+    .donate-plan-header{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .donate-plan-strategy{
+        display: flex;
+        justify-content: center;
+    }
+    .strategy-1{
+        background-color: rgb(153, 241, 241);
+       padding: 10px;
+       width: 20%;
+       margin-left: 15px;
+       padding: 50px;
+       
+    }
+    .strategy-1 img, h4{
+        margin-bottom: 20px;
+    }
+    .strategy-2{
+        background-color: papayawhip;
+        padding: 10px;
+        width: 20%;
+        margin-left: 15px;
+        padding: 50px;
+    }
+    .strategy-2 img, h4{
+        margin-bottom: 20px;
+    }
+    .strategy-3{
+        background-color: burlywood;
+        padding: 10px;
+        width: 20%;
+        margin-left: 15px;
+        padding: 50px;
+    }
+    .strategy-3 img, h4{
+        margin-bottom: 20px;
+    }
+/* donate plan ends here */
