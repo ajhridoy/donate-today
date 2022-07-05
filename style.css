@@ -140,3 +140,24 @@ input::placeholder {
         margin-bottom: 20px;
     }
 /* donate plan ends here */
+
+/* motivation sec start here */
+    #motivation-sec{
+        display: flex;
+        height: 100vh;
+    }
+    .half-width{
+       width: 50%;
+       padding: 30px;
+    }
+    .half-width img{
+        width: 90%;
+        padding: 5%;
+    }
+    .motivation-desc{
+        padding: 5%;
+    }
+    .motivation-desc h2, p{
+        margin-bottom: 20px;
+    }
+/* motivation sec end here */
