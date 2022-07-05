@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+
+/* header start here  */
+#header-sec{
+    
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+}
+
+.header-item{
+    height: 100vh;
+    padding-top: 10%;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+#header-sec div p{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.donate-btn{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    
+}
+/* header start here  */
+
+/* donate amount start here */
+#donation-sec{
+    height: 100vh;
+}
+.donate-desc{
+    text-align: center;
+    margin-top: 60px;
+    
+}
+.donate-amount{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;   
+}
+.donate-amount div{
+    width: 80px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.116);
+    text-align: center;
+    padding: 30px;
+    margin-left: 15px;
+}
+#design-amount{
+    background-color: bisque;
+    color: brown;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.btn-div{
+    text-align: center;
+    margin-top: 80px;
+}
+.btn-div input{
+    width: 700px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    opacity: 0.5;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+input::placeholder {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* donate amount end here */
